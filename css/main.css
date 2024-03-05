@@ -1,0 +1,27 @@
+body,
+html {
+  direction: rtl;
+}
+.menu {
+  width: 100%;
+  height: 40px;
+  & nav {
+    width: 80%;
+    height: 40px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: start;
+    column-gap: 20px;
+    & div {
+      width: fit-content;
+      height: 40px;
+      background-color: aqua;
+      & a {
+        display: block;
+        text-decoration: none;
+        line-height: 40px;
+        color: black;
+      }
+    }
+  }
+}
